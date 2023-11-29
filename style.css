@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  white; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    list-style-type: none;
+    padding-top: 70px;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    float: left;
+    height: 20px;
+    margin-left: 5px;
+    padding: 10px 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+.right-block {
+	float: right;
+    background-color: orange;
+}
+.right-block:hover {
+    background-color: rgb(252, 194, 86);
+}
+section{
+    background-color: black;
+}
+section h1{
+    font-size: 4em;
+    margin: 0px 50px;
+}
+section h3{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.hero{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 60px 190px 80px 190px;
+}
+.button-video a{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: aqua;
+    padding: 10px 40px;
+    border: 2px aqua solid;
+}
+.button-video a:hover{
+    color: white;
+    border:2px rgb(2, 200, 200) solid;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-block {
+    width: 45%; 
+    float: left; 
+    text-align: center; 
+  }
+  
+  .contact-logo {
+    display: block; 
+    margin: 20px auto; 
+  }
+  .container .contact-list dl {
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 40px 40px 40px 40px;
+  }
+.contact-block p {
+    font-size: 1em;
+    color: #fff;
+    margin: 20px 60px;
+}
+.contact-list dt {
+    padding: 0 0px 0 43px;
+}
+.contact-list dt, .contact-list dd {
+    margin-bottom: 25px;
+}
+dt {
+    font-weight: 700;
+    display: block;
+}
+
+.contact-info {
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 20px; 
+}
+
+.footer-bottom h3 {
+    text-align: center; 
+    margin-top: 0; 
+    color: aqua;
+  }
+
+.contact-list, a{
+    color: white;
+    padding: 0px 5px 0px 5px;
+}
+
+.footer-bottom a {
+    color: white;
+ }
+
+footer {
+    background-color: #1b1b1b;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.contact-info div {
+    padding: 0px 0px 0px 30px; 
+}
+
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+.как-то-1{
+    color: rgb(30, 29, 29);
+    font-size: 2em;
+    text-align: center;
+}
+
+.как-то-назвать a {
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+  }
+  
+  .как-то-назвать {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .как-то-назвать img {
+    width: 100%; 
+  }
+
+.название img{
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .block {
+    width: 15%; /* Ширина блока */
+  }
+  
+  .block img {
+    width: 20%; /* Ширина изображения */
+  }
+  
+  .block p{
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  .block a{
+    background-color: orange;
+    padding: 10px;
+  }
+  
